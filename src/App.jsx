@@ -72,7 +72,7 @@ function App() {
         <section id="home" className="hero">
           <div className="container">
             <div className="hero-content">
-              <div className="badge">Available for opportunities</div>
+              <div className="badge">Software Engineer at IBM</div>
               <h1 className="hero-title">
                 Full-Stack Developer
                 <br />
@@ -427,9 +427,9 @@ function App() {
           padding: 8px 20px;
           background: rgba(59, 130, 246, 0.1);
           border: 1px solid rgba(59, 130, 246, 0.3);
-          border-radius: 50px;
+          border-radius: 8px;
           color: #3b82f6;
-          font-size: 14px;
+          font-size: 16px;
           font-weight: 600;
           margin-bottom: 24px;
         }
