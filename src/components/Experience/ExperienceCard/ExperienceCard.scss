@@ -1,0 +1,50 @@
+.experience-card {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 16px;
+    padding: 32px;
+    transition: all 0.3s ease;
+}
+
+.experience-card:hover {
+    border-color: rgba(59, 130, 246, 0.3);
+    transform: translateY(-4px);
+}
+
+.exp-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.exp-role {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.exp-company {
+    color: #94a3b8;
+    font-size: 18px;
+}
+
+.exp-desc {
+    list-style: none;
+}
+
+.exp-desc li {
+    padding-left: 24px;
+    margin-bottom: 12px;
+    color: #94a3b8;
+    line-height: 1.7;
+    position: relative;
+}
+
+.exp-desc li::before {
+    content: '→';
+    position: absolute;
+    left: 0;
+    color: #3b82f6;
+}

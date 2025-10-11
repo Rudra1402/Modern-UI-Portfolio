@@ -1,0 +1,41 @@
+.education-card {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 16px;
+    padding: 28px;
+    transition: all 0.3s ease;
+}
+
+.education-card:hover {
+    border-color: rgba(34, 197, 94, 0.3);
+    transform: translateY(-4px);
+}
+
+.edu-institute {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.edu-degree {
+    color: #94a3b8;
+    font-size: 18px;
+    margin-bottom: 4px;
+}
+
+.edu-location {
+    color: #64748b;
+    margin-bottom: 20px;
+}
+
+.edu-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+
+.edu-cgpa {
+    color: #cbd5e1;
+    font-weight: 600;
+}

@@ -8,15 +8,16 @@ const Hero = ({ scrollToSection }) => {
     <section id="home" className="hero">
       <div className="container">
         <div className="hero-content">
-          <div className="badge">Available for opportunities</div>
+          <div className="badge">Software Engineer at IBM</div>
           <h1 className="hero-title">
-            Full-Stack Developer
+            Hi, I'm <span className="gradient-text">Rudra Patel</span>
             <br />
-            <span className="gradient-text">& Software Engineer</span>
+            Full-Stack Developer & Software Engineer
           </h1>
           <p className="hero-subtitle">
             Building scalable web applications with modern technologies.
-            Specializing in React, Node.js, and cloud infrastructure.
+            Specializing in React, Node.js, and cloud infrastructure with a passion
+            for clean code and elegant solutions.
           </p>
           <div className="hero-buttons">
             <button onClick={() => scrollToSection('projects')} className="btn btn-primary">
