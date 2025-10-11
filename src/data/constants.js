@@ -215,7 +215,7 @@ export const education = [
         courseDegree: 'Master\'s degree',
         major: 'Applied Computing',
         duration: 'Sep 2023 - Dec 2024',
-        cgpa: '3.4 / 4.0',
+        cgpa: '3.7 / 4.0',
     },
     {
         institute: 'Gujarat Technological University',

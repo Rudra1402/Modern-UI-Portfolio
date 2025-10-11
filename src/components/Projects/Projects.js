@@ -5,7 +5,7 @@ import { projects } from '../../data/constants'
 
 const Projects = () => {
     return (
-        <section id="projects" className="section section-alt">
+        <section id="projects" className="section">
             <div className="container">
                 <div className="section-header">
                     <span className="section-icon">🚀</span>
