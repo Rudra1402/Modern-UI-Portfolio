@@ -176,6 +176,22 @@ export const projects = [
 export const workExp = [
     {
         role: 'Software Developer',
+        company: 'IBM wastonx.ai',
+        location: 'Markham, ON (Hybrid)',
+        desc: [
+            "Led the development of multiple features across different environments (Cloud / On-Prem) and various microservices using React, IBM Cloud, AWS, and REST APIs.",
+            "Co-authored an UI component used by various teams across the IBM Cloud Pak for Data platform, managing the feature and enhancement requests and delivering them in given release cycles.",
+            "Learned how SocketIO and Caching work along with the BFF endpoints that communicate with the actual API to implement state-of-the-art system design architecture.",
+            "Authored a compact node module for Accessibility that is being leveraged by almost all the UI microservices to adhere to the latest accessibility standards.",
+            "Handled the weekly DevOps on-call deployments to promote services to QA and Prod. Also, wrote Tekton CI scripts for UI Automation deployed on IBM Cloud Toolchain.",
+            "Leveraged communication and collaboration skills during customer calls, weekly statuses and scrum meetings. Participated in cross-team collaboration to deliver the best results."
+        ],
+        techStack: ['React.js', 'IBM Cloud', 'AWS'],
+        duration: 'Feb 2025 - Present',
+        certificateUrl: null
+    },
+    {
+        role: 'Software Developer',
         company: 'Modgenics',
         location: 'Remote',
         desc: [
@@ -186,7 +202,7 @@ export const workExp = [
             "Employed Git/GitHub for source control management, maintained Agile workflows, participated in sprint planning, developed features based on user stories, and shipped code weekly",
             "Maintained comprehensive technical software documentation, performed code reviews, provided constructive feedback to peers, demonstrating effective communication and timely task execution"
         ],
-        techStack: ['ReactJS', 'NextJS', 'AWS S3', 'Tailwind CSS'],
+        techStack: ['React.js', 'Next.js', 'AWS S3', 'Tailwind CSS'],
         duration: 'Jan 2023 - Aug 2023',
         certificateUrl: 'https://media.licdn.com/dms/image/D562DAQGNv0dgoAAWYg/profile-treasury-document-cover-images_480/0/1699763169649?e=1700370000&v=beta&t=HzJUHD9x9U5e_KSOghFpyJ9KGniFdEI2f9k8ev0NGas'
     },
@@ -202,7 +218,7 @@ export const workExp = [
             "Managed database using Postgres, writing SQL queries and stored procedures for database design",
             "Collaborated with cross-functional teams for smooth software delivery based on business requirements, demonstrating effective verbal communication"
         ],
-        techStack: ['ReactJS', 'NodeJS', 'ExpressJS', 'PostgreSQL'],
+        techStack: ['React.js', 'Node.js', 'Express.js', 'PostgreSQL'],
         duration: 'Jul 2022 - Dec 2022',
         certificateUrl: 'https://media.licdn.com/dms/image/D4D2DAQHWnJf3gOxq7w/profile-treasury-document-cover-images_480/0/1692809204396?e=1700370000&v=beta&t=-cCxgVc89b5Lq7AAQqXgAbUnmR05PU-KlNzs56m4Hi4'
     }

@@ -7,7 +7,7 @@ const SkillCard = ({ category, skills }) => {
             <h3 className="skill-category">{category}</h3>
             <div className="skills-list">
                 {skills.map((skill, i) => (
-                    <span key={i} className="skill-tag">{skill}</span>
+                    <span key={i} className="tag tag-blue">{skill}</span>
                 ))}
             </div>
         </div>
