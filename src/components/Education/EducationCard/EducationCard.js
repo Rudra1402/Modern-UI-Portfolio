@@ -8,7 +8,7 @@ const EducationCard = ({ edu }) => {
             <p className="edu-degree">{edu.courseDegree} in {edu.major}</p>
             <p className="edu-location">{edu.city}</p>
             <div className="edu-footer">
-                <span className="tag tag-green">{edu.duration}</span>
+                <span className="tag tag-blue">{edu.duration}</span>
                 <span className="edu-cgpa">CGPA: {edu.cgpa}</span>
             </div>
         </div>
