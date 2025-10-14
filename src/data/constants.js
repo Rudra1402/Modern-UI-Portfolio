@@ -244,10 +244,12 @@ export const education = [
 ]
 
 export const techSkills = {
-  'Languages': ['JavaScript', 'Python', 'C++', 'Java'],
-  'Frontend': ['ReactJS', 'NextJS', 'Tailwind CSS', 'Bootstrap'],
-  'Backend': ['NodeJS', 'ExpressJS', 'FastAPI', 'Flask', 'Django'],
-  'Databases': ['MongoDB', 'PostgreSQL', 'MySQL', 'MS SQL Server'],
-  'Cloud': ['AWS', 'Docker', 'Kubernetes', 'Firebase', 'Vercel'],
-  'Tools': ['Git', 'Github', 'JIRA', 'Postman', 'VS Code']
+  'Languages': ['JavaScript', 'Python', 'C++', 'Java', 'Golang'],
+  'Frontend': ['React.js', 'Next.js', 'HTML', 'Tailwind CSS'],
+  'Backend': ['Node.js', 'Express.js', 'FastAPI', 'Flask', 'Django'],
+  'Databases': ['MongoDB', 'PostgreSQL', 'CouchDB', 'MS SQL Server'],
+  'Cloud': ['AWS', 'IBM Cloud', 'Firebase', 'Vercel'],
+  'DevOps': ['Kubernetes', 'Docker', 'Tekton CI', 'AWS EKS'],
+  'Caching/Brokers': ['Redis', 'RabbitMQ'],
+  'Tools': ['Git', 'Github', 'Postman', 'VS Code']
 };
